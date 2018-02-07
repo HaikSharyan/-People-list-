@@ -81,9 +81,7 @@ function getValue() {
     } else {
         document.getElementById("names-container").classList.remove("opacity");
         [].forEach.call(cols, addDnDHandlers);
-        console.log(cols);
     }
     document.getElementById("select-name").value = "";
-    console.log(document.getElementById("names-container"));
 }
 
