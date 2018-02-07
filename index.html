@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <h3>Please write at least 7 names in order for the list to be draggable</h3>
+    <div class="row">
+        <label class="col-sm-4 col-xs-12" for="select-name">fill names.<span class="red-text"> (at least 7 names)</span></label>
+        <div class="col-sm-5 col-xs-10">
+            <input class=" form-control" id="select-name">
+        </div>
+        <div class="col-sm-2 col-xs-2">
+            <button class="btn btn-success" onclick="getValue()">add</button>
+        </div>
+
+    </div>
+
+
+
+    <ol id="names-container" class="col-xs-12" ></ol>
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>

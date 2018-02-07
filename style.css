@@ -1,0 +1,38 @@
+label {
+    line-height: 34px;
+    margin-bottom: 0;
+}
+
+.red-text {
+    color: red ;
+}
+
+[draggable] {
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    -khtml-user-drag: element;
+    -webkit-user-drag: element;
+}
+
+#names-container {
+    margin-top: 15px;
+}
+
+#names-container.opacity {
+    opacity: 0.3;
+}
+
+.column {
+    max-width: 300px;
+    margin-top: 10px;
+    padding: 5px 15px;
+    border-radius: 3px;
+    text-align: center;
+    cursor: move;
+}
+
+.column.over {
+    border-top: 2px solid blue;
+}
